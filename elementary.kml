@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>elementary</name>
+    <Style id="line-000000-10494-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>10.494</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-10494-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>15.741</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-10494-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-10494-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-10494-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>线条 1</name>
+      <styleUrl>#line-000000-10494-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -123.2515019,49.272563,0
+          -123.2592052,49.2684467,0
+          -123.2604712,49.2665565,0
+          -123.2607716,49.2644001,0
+          -123.25854,49.2629859,0
+          -123.2586258,49.2620757,0
+          -123.2575315,49.2610254,0
+          -123.2568234,49.2601992,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
